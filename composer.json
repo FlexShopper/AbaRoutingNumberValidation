@@ -1,0 +1,22 @@
+{
+    "name": "flex-shopper/zf2-routing-number-validation",
+    "description": "Validate US routing numbers",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Andres Galindo",
+            "email": "andres.galindo@flexshopper.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "FlexShopper": "src/"
+        }
+    },
+    "require": {
+        "zendframework/zend-validator": "2.2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    }
+}
